@@ -69,10 +69,10 @@ O read() retornou 0, indicando que chegou ao fim do arquivo (nomeclatura conheci
 
 | Buffer Size | Chamadas read() | Tempo (s) |
 |-------------|-----------------|-----------|
-| 16          |  82             |           |
-| 64          |  21             |           |
-| 256         |  06             |           |
-| 1024        |  02             |           |
+| 16          |  82             | 0.000166  |
+| 64          |  21             | 0.000083  |
+| 256         |  06             | 0.000118  |
+| 1024        |  02             | 0.000119  |
 
 ### Análise
 
